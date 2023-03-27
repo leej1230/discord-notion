@@ -18,4 +18,4 @@
         },
     "include": ["src", "environment.d.ts"],
     "exclude": ["node_modules, **/*.spec.ts"]
-  }
+}
