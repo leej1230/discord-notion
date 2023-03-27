@@ -1,6 +1,6 @@
 import { ApplicationCommandDataResolvable, Client, Collection, ClientEvents } from "discord.js";
 import type { CommandType } from "../typings/Command";
-import glob from 'glob';
+import { glob } from "glob";
 import { promisify } from "util";
 import type { RegisterCommandsOptions } from "../typings/client";
 import { Event } from "./Event";
