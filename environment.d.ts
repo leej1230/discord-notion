@@ -4,6 +4,8 @@ declare global {
             botToken: string;
             guildId: string;
             environment: "dev" | "prod" | "debug";
+            notionIntegrationToken: string;
+            notionTodayTaskDatabaseId: string;
         }
     }
 }
